@@ -1,7 +1,9 @@
+// Imported dependencies
 const inquirer = require('inquirer')
 const mysql = require('mysql2')
 
-const questions = [
+// Main menu options
+const menu = [
     {
         type: 'list',
         name: 'menu',
@@ -13,6 +15,11 @@ const questions = [
             'Add a department',
             'Add a role', 
             'Add an employee', 
-            'Update an employee role']
+            'Update an employee role',
+            'Exit Program']
     }
 ]
+
+// Function to initialize program
+    // --Launches prompt. upon recieving answer, does work then displays prompt again (unless exit is chosen)
+function init() {}

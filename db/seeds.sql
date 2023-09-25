@@ -5,7 +5,7 @@ VALUES (001, "Sales"),
        (004, "Public Relations"),
        (005, "Admin");
 
-INSERT INTO role (id, title, salary, department_id,)
+INSERT INTO role (id, title, salary, department_id)
 VALUES (001, "Sales Associates", 500000, 001),
        (002, "Accountant", 850000, 002 ),
        (003, "Researcher", 900500, 003),
